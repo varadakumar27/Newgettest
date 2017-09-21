@@ -8,7 +8,9 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Annotations {
+import listener.ITestListenerDemo;
+
+public class Annotations extends ITestListenerDemo {
 	
 	@BeforeSuite
 	public void beforessuit(){
