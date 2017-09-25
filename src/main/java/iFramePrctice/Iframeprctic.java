@@ -9,8 +9,8 @@ import org.testng.annotations.Test;
 import listener.ITestListenerDemo;
 
 public class Iframeprctic extends ITestListenerDemo  {
-	@Test
-	public void ifram() throws InterruptedException {
+	
+	public static void main(String[] args) throws InterruptedException {
 	System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
 		ChromeDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
